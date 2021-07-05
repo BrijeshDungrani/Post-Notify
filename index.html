@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Firebase database client side</title>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <label for="userId">User Id</label><br>
+            <input type="text" name = "userId" id ="userId"><br>
+            <label for="firstName">First Name</label><br>
+            <input type="text" name = "firstName" id ="firstName"><br>
+            <label for="lastName">last Name</label><br>
+            <input type="text" name = "lastName" id ="lastName"><br>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age"><br>
+            <button id ="addBtn" class="btn waves-effect waves-light" >Add</button>
+            <button id ="updateBtn" class="btn waves-effect waves-light" >Update</button>
+            <button id ="removeBtn" class="btn waves-effect red darken-1" >Delete</button>
+        </form>
+    </main>
+    <script src="./function.js"></script>
+</body>
+</html>
